@@ -92,8 +92,8 @@ def square_hole(h=0.05):
     gmsh.model.geo.addPoint(0.3,0.5,0,lc,6)
     gmsh.model.geo.addPoint(0.7,0.5,0,lc,7)
 
-    gmsh.model.geo.addCircleArc(6,5,7,tag=5) # 生成圆弧
-    gmsh.model.geo.addCircleArc(7,5,6,tag=6)# 该函数只能生成弧度小于等于180度的圆弧
+    gmsh.model.geo.addCircleArc(6,5,7,tag=5)
+    gmsh.model.geo.addCircleArc(7,5,6,tag=6)
 
     gmsh.model.geo.addCurveLoop([5,6],2)
 
