@@ -75,7 +75,7 @@ def intersect_spheres(h=0.1):
 def square_hole(h=0.05):
     gmsh.initialize()
     lc = h
-    # 构建几何
+
     gmsh.model.geo.addPoint(0, 0, 0, lc, 1)
     gmsh.model.geo.addPoint(1, 0, 0, lc, 2)
     gmsh.model.geo.addPoint(1, 1, 0, lc, 3)
