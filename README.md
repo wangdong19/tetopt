@@ -3,6 +3,9 @@ This repository contains the implementation of the algorithm proposed in the pap
 **"Global Energy Minimization for Simplex Mesh Optimization: A Radius Ratio Approach to Sliver Elimination"**.  
 It provides complete support for reproducing all the numerical examples and results presented in the paper.
 
+This project is a secondary development based on the Python package FEALPy:
+H. Wei and Y. Huang, FEALPy: Finite Element Analysis Library in Python, https://github.com/weihuayi/fealpy, Xiangtan University, 2017–2021.
+
 ## File Structure
 ├── MeshModel.py # Construct mesh examples
 ├── opt_example.py # Run mesh optimization examples
